@@ -2,14 +2,14 @@ module init
 
 go 1.23.0
 
-replace github.com/ruierzhao/gosium v0.0.0-00010101000000-000000000000 => ../../
-
-// replace fyne.io/fyne/v2 v2.5.1 => ../../fynev2.5.1
-
-require github.com/ruierzhao/gosium v0.0.0-00010101000000-000000000000
+replace github.com/ruierzhao/gosium v0.0.0-20241009091156-cd4ac9a5d82b => ../../
 
 require (
-	fyne.io/fyne/v2 v2.5.1 // indirect
+	fyne.io/fyne/v2 v2.5.2
+	github.com/ruierzhao/gosium v0.0.0-20241009091156-cd4ac9a5d82b
+)
+
+require (
 	fyne.io/systray v1.11.0 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -20,8 +20,8 @@ require (
 	github.com/fyne-io/image v0.0.0-20220602074514-4956b0afb3d2 // indirect
 	github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a // indirect
-	github.com/go-text/render v0.1.1-0.20240418202334-dd62631dae9b // indirect
-	github.com/go-text/typesetting v0.1.0 // indirect
+	github.com/go-text/render v0.2.0 // indirect
+	github.com/go-text/typesetting v0.2.0 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/gopherjs/gopherjs v1.17.2 // indirect
 	github.com/jeandeaual/go-locale v0.0.0-20240223122105-ce5225dcaa49 // indirect
